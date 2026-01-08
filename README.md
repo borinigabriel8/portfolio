@@ -5,8 +5,8 @@ O projeto foi desenvolvido com foco em criatividade, experiência do usuário e 
 
 📸 Demonstração
 
-![View](https://github.com/borinigabriel8/portfolio/blob/main/Screenshot_1.png)
-![View](https://github.com/borinigabriel8/portfolio/blob/main/Screenshot_2.png)
+![View](https://github.com/borinigabriel8/portfolio/blob/main/img/Screenshot_1.png)
+![View](https://github.com/borinigabriel8/portfolio/blob/main/img/Screenshot_2.png)
 
 Acesso pelo **Pages**: https://borinigabriel8.github.io/portfolio/
 
