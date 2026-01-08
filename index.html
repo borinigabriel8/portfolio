@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Gabriel Borini - Portfolio</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+	<canvas id="stars"></canvas>
+	<audio id="bg-music" src="audio/music.mp3" loop></audio>
+
+	<div id="world">
+		<header>
+			<div class="menu-btn"><i class="fa-solid fa-bars"></i></div>
+			<div class="logo-container">
+				<h2>Gabriel</h2>
+			</div>
+			<nav>
+				<a href="#about">Sobre Mim</a>
+				<a href="#skills">Skills</a>
+				<a href="#projects">Projetos</a>
+				<a href="#contact">Contato</a>
+			</nav>
+			<div class="social-icons">
+			</div>
+		</header>
+
+		<section id="about" class="hero">
+			<div class="hero-content">
+				<div class="profile-header">
+					<img src="img/me.png" alt="Gabriel" class="profile-img">
+					<span class="badge">Full Stack Developer</span>
+				</div>
+				<h1>Codificando entre o mundo real e o 'Mundo Invertido'</h1>
+				<p>
+					Olá, eu sou o Gabriel, um Desenvolvedor Full Stack focado em trazer luz às sombras do backend
+					e criar interfaces front-end que não são deste mundo. Explore meus projetos... se tiver coragem.
+				</p>
+				<a href="#projects" class="btn">Explorar Projetos</a>
+			</div>
+		</section>
+
+		<section id="skills" class="skills-section">
+			<h2 class="title-gradient">Minhas Skills</h2>
+		
+			<div class="skills-container">
+				<div class="skill-card">
+					<i class="devicon-javascript-plain colored"></i>
+					<span>JavaScript</span>
+				</div>
+				<div class="skill-card">
+					<i class="devicon-react-original colored"></i>
+					<span>React</span>
+				</div>
+				<div class="skill-card">
+					<i class="devicon-nodejs-plain colored"></i>
+					<span>Node.js</span>
+				</div>
+				<div class="skill-card">
+					<i class="devicon-html5-plain colored"></i>
+					<span>HTML5</span>
+				</div>
+				<div class="skill-card">
+					<i class="devicon-css3-plain colored"></i>
+					<span>CSS3</span>
+				</div>
+				<div class="skill-card">
+					<i class="devicon-php-plain colored"></i>
+					<span>PHP</span>
+				</div>
+				<div class="skill-card">
+					<i class="devicon-laravel-original colored"></i>
+					<span>Laravel</span>
+				</div>
+				<div class="skill-card">
+					<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg" alt="Figma"
+						class="skill-icon">
+					<span>Figma</span>
+				</div>
+
+				<div class="skill-card">
+					<i class="devicon-mysql-plain colored"></i>
+					<span>MySQL</span>
+				</div>
+			</div>
+		</section>
+
+		<section id="projects" class="projects-section">
+			<h2 class="title-gradient">Meus Projetos</h2>
+		
+			<div class="projects-wrapper">
+				<!-- Botão esquerda -->
+				<button class="carousel-btn left"><i class="fa-solid fa-chevron-left"></i></button>
+		
+				<!-- Container horizontal de projetos -->
+				<div class="projects-container">
+					<div class="project-card">
+						<img src="img/projetos/hal-2026.png" class="project-img">
+						<div class="project-content">
+							<h3>HAL 2026</h3>
+							<p>IA baseada no HAL 9000. Sistema retro-futurista com design minimalista e elementos visuais
+								inspirados em ficção científica.</p>
+							<a href="https://github.com/borinigabriel8/hal-2026" target="_blank" class="project-btn">Acessar no
+								GitHub</a>
+						</div>
+					</div>
+		
+					<div class="project-card">
+						<img src="img/projetos/mars.png" class="project-img">
+						<div class="project-content">
+							<h3>Mars Control</h3>
+							<p>Sistema de controle e monitoramento de colônia em Marte. Interface retro-futurista com vários comandos.</p>
+							<a href="https://github.com/borinigabriel8/mars-control" target="_blank" class="project-btn">Acessar
+								no GitHub</a>
+						</div>
+					</div>
+		
+					<div class="project-card">
+						<img src="img/projetos/movie-pick.png" class="project-img">
+						<div class="project-content">
+							<h3>Movie Pick</h3>
+							<p>Aplicação de busca de filmes com integração de API, lista dinâmica e UI moderna estilo streaming.
+								Desenvolvido em JavaScript.</p>
+							<a href="https://github.com/borinigabriel8/moviepick" target="_blank" class="project-btn">Acessar no
+								GitHub</a>
+						</div>
+					</div>
+		
+					<!-- Exemplo de quarto projeto -->
+					<div class="project-card">
+						<img src="img/projetos/novo-projeto.png" class="project-img">
+						<div class="project-content">
+							<h3>Novo Projeto</h3>
+							<p>Descrição do novo projeto. Explica o que faz e suas tecnologias.</p>
+							<a href="#" target="_blank" class="project-btn">Acessar no GitHub</a>
+						</div>
+					</div>
+				</div>
+		
+				<!-- Botão direita -->
+				<button class="carousel-btn right"><i class="fa-solid fa-chevron-right"></i></button>
+			</div>
+		</section>
+
+
+		<section id="contact" class="contact-section">
+			<h2 class="title-gradient">CONTATO</h2>
+			<p class="contact-subtitle">Deseja iniciar uma missão? Encontre-me abaixo.</p>
+		
+			<div class="contact-container">
+				<a href="https://www.linkedin.com/in/borinigabriel/" target="_blank" class="contact-item">
+					<div class="icon-box"><i class="devicon-linkedin-plain colored"></i></div>
+					<span>LINKEDIN</span>
+				</a>
+		
+				<a href="https://www.instagram.com/borinigabriel" target="_blank" class="contact-item">
+					<div class="icon-box"><i class="fa-brands fa-instagram instagram-icon"></i></div>
+					<span>INSTAGRAM</span>
+				</a>
+		
+				<a href="mailto:borinigabriel@hotmail.com" class="contact-item">
+					<div class="icon-box"><i class="fa-solid fa-envelope" style="color: #ea4335;"></i></div>
+					<span>EMAIL</span>
+				</a>
+		
+				<a href="https://wa.me/5543999657927" target="_blank" class="contact-item">
+					<div class="icon-box"><i class="fa-brands fa-whatsapp" style="color: #25d366;"></i></div>
+					<span>WHATSAPP</span>
+				</a>
+			</div>
+		</section>
+	</div>
+	<button id="escape-btn">Fuja do Mundo Invertido!</button>
+	<script src="script.js"></script>
+</body>
+
+</html>
